@@ -8,7 +8,7 @@ Build the Docker image:
 ```bash
 docker build -t my-rag-app .
 
-Run the Docker container while setting the API key as an environment variable:
+### Run the Docker container while setting the API key as an environment variable:
 docker run -it --rm -e OPENAI_API_KEY="your_openai_api_key_here" my-rag-app
 
 ---
